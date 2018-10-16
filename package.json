@@ -1,0 +1,16 @@
+{
+  "name": "dynamic-walk",
+  "version": "1.0.0",
+  "description": "Simple reproduction of broken acorn-dynamic-import walk",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Kristofer Baxter",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "acorn": "6.0.2",
+    "acorn-dynamic-import": "4.0.0",
+    "acorn-walk": "6.1.0"
+  }
+}
